@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: Century Gothic;
+    background: url(../Assets/b.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: 75vh;
+    width: 30%;
+    background: rgba(219, 211, 211, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+    background: url(../Assets/Logo\ AbabaSteak.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1 {
+    color: rgb(238, 96, 2);
+    margin-top: 50px;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.container h2 {
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container p {
+    color: rgb(0, 0, 0);
+    margin-top: 60px;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-footer {
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+.social-media {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.753);
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+
+}
+
+.logo-ababa-footer {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: auto;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer li {
+    padding: 0 10px;
+}
+
+.footer ul a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul a:hover {
+    opacity: 1;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer .social>a {
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.CONTAINER {
+    width: 100%;
+    min-height: 200px;
+}
+
+html {
+    font-size: 65%;
+}
+
+.outline {
+    font-size: 100px;
+    color: #fff;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.05em #000;
+
+}
+
+body {
+    font-family: 'popons', sans-serif;
+    background-color: rgb(27, 27, 27);
+    overflow-x: hidden;
+}
+
+.header {
+    height: 90vh;
+}
+
+.logo-ababa {
+    width: 200px;
+    height: auto;
+}
+
+.navbar {
+    height: 110px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 10;
+    position: fixed;
+}
+
+.navbar-box {
+    display: flex;
+    align-items: center;
+    font-size: 6rem;
+    color: white;
+}
+
+.heading-tertiary {
+    font-size: 3.5rem;
+}
+
+.navbar-list {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.navbar-item {
+    display: inline-block;
+    color: rgb(184, 184, 184);
+}
+
+.navbar-lin:visited,
+.navbar-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 3rem;
+    transition: all .2s ease;
+
+}
+
+.navbar-link:hover {
+    background-color: rgb(207, 45, 45);
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .logo-ababa {
+        width: 100px;
+        height: auto;
+    }
+
+    .navbar-list {
+        list-style: none;
+        font-size: 1.2rem;
+    }
+
+    .container h2 {
+        color: rgb(0, 0, 0);
+        margin-top: 50px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ababa Steak Reservation</title>
+    <link rel="icon" href="../Assets/Logo AbabaSteak.png"/>
+    <link rel="stylesheet" href="Reservation.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<script src="reservation.js"></script>
+<body>
+    <header class="full-container flex-center">
+        <img width="auto" height="100px" src="../Assets/Logo AbabaSteak.png"/>
+        <div class="flex-space-between">
+            <h2>ABABA Steak Reservation</h2>
+        </div>
+    </header>
+            <div>
+                <a href="./../Homepage/Home.html" class="homreg flex-center-homreg">home</a>
+            </div>
+    <section>
+        <div class="full-container flex-center">
+            <form action="">
+                <div class= "flex-space-between">
+                    <label for="Nama">Name of Customer</label>
+                    <input type="text" id="nama" placeholder="Enter Customer Name">
+                </div>
+                <div class= "flex-space-between">
+                    <label for="Jumlah">Number of people</label>
+                    <input type="number" id="jumlah" placeholder="Enter Number in Group">
+                </div>
+                <div class="flex-space-between">
+                    <label for="Nomor HP">Phone Number</label>
+                    <input type="text" id="nohp" placeholder="Enter Phone Number">
+                </div>
+                <div class="flex-space-between">
+                    <label for="date">Date Reservation</label>
+                    <input type="date" id="tanggalpesan" placeholder="Masukan Tanggal Pemesanan">
+                </div>
+                <div class="flex-space-between">
+                    <label for="time">Time Reservation</label>
+                    <input type="time" id="jampesan" placeholder="Masukan Jam Pemesanan">
+                </div>
+                <div class= "flex-space-between">
+                    <label for="kode">Coupon Code</label>
+                    <input type="text" id="kupon" placeholder="if you have a coupon code">
+                </div>
+                <div>
+                    <button type="submit" class="full-container flex-center-submit" onclick="validate()">Submit</button>
+                </form>
+            </div>
+    </section>
+    <div class="footer">
+        <footer>
+            <div class="social-media">SOCIAL MEDIA</div>
+            <div class="social"><a href="https://www.instagram.com/rizkydwisaputra2804/">
+                <i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="https://www.facebook.com/john.calvin.1232"><i class="icon ion-social-facebook"></i></a>
+            </div>
+    
+            <div class="footer-container">
+                <div class="footer-item">
+                    <img src="../Assets/Logo AbabaSteak.png" class="logo-footer">
+                </div>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="../Homepage/Home.html">Home</a></li>
+                <li class="list-inline-item"><a href="../AboutUs/AboutUs.html">About Us</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#">Contact Us</a></li>
+            </ul>
+            <p class="copyright">ABABA STEAK © 2021</p>
+        </footer>
+</body>
+</html>
